@@ -18,7 +18,7 @@ public class AmazonPageTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Emree\\IdeaProjects\\AmazonTest\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\Emree\\IdeaProjects\\AmazonTest\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
